@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84010AAB206B774D0037589D /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84010AAA206B774D0037589D /* TemplateViewController.m */; };
+		84010AB1206B82CA0037589D /* TemplateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84010AB0206B82CA0037589D /* TemplateTableViewCell.m */; };
 		84DA4092206ADB0C009950E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4091206ADB0C009950E4 /* AppDelegate.m */; };
 		84DA4098206ADB0C009950E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA4096206ADB0C009950E4 /* Main.storyboard */; };
 		84DA409B206ADB0C009950E4 /* Steel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DA4099206ADB0C009950E4 /* Steel.xcdatamodeld */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84010AA9206B774D0037589D /* TemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
+		84010AAA206B774D0037589D /* TemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
+		84010AAF206B82CA0037589D /* TemplateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateTableViewCell.h; sourceTree = "<group>"; };
+		84010AB0206B82CA0037589D /* TemplateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTableViewCell.m; sourceTree = "<group>"; };
 		84DA408D206ADB0C009950E4 /* Steel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA4090206ADB0C009950E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84DA4091206ADB0C009950E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +113,10 @@
 				84DA4091206ADB0C009950E4 /* AppDelegate.m */,
 				84DA40C6206ADC04009950E4 /* HomeViewController.h */,
 				84DA40C5206ADC04009950E4 /* HomeViewController.m */,
+				84010AA9206B774D0037589D /* TemplateViewController.h */,
+				84010AAA206B774D0037589D /* TemplateViewController.m */,
+				84010AAF206B82CA0037589D /* TemplateTableViewCell.h */,
+				84010AB0206B82CA0037589D /* TemplateTableViewCell.m */,
 				84DA4096206ADB0C009950E4 /* Main.storyboard */,
 				84DA409C206ADB0C009950E4 /* Assets.xcassets */,
 				84DA409E206ADB0C009950E4 /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84010AAB206B774D0037589D /* TemplateViewController.m in Sources */,
+				84010AB1206B82CA0037589D /* TemplateTableViewCell.m in Sources */,
 				84DA4092206ADB0C009950E4 /* AppDelegate.m in Sources */,
 				84DA40A3206ADB0C009950E4 /* main.m in Sources */,
 				84DA409B206ADB0C009950E4 /* Steel.xcdatamodeld in Sources */,
